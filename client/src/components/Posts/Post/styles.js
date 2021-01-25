@@ -13,6 +13,10 @@ export default makeStyles({
     fullHeightCard: {
         height: '100%',
     },
+    message: {
+        height: '100px',
+        overflow: 'scroll',
+    },
     card: {
         display: 'flex',
         flexDirection: 'column',
