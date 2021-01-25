@@ -16,7 +16,7 @@ app.use(cors());
 app.use('/posts', postRoutes);
 app.use('/user', userRouter);  
 
-const CONNECTION_URL = 'mongodb://root:springfield1995@blogmongo-production/blog';
+const CONNECTION_URL = 'mongodb://root:springfield1995@blogmongo-production/admin';
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(process.env.CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true})
